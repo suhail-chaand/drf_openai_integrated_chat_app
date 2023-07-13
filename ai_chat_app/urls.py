@@ -22,4 +22,5 @@ urlpatterns = [
     path('api/ai_chats/', include('ai_chats.urls')),
     path('api/ai_models/', include('ai_models.urls')),
     path('api/ai_images/', include('ai_images.urls')),
+    path('api/ai_audio/', include('ai_audio.urls')),
 ]
